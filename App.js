@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { AudioListScreen } from './src/containers';
 
 
 /*
@@ -13,13 +14,8 @@ https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3
 
 
 */
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Default Home Page</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+export default function App(): number {
+  return <AudioListScreen />;
 }
 
 const styles = StyleSheet.create({
