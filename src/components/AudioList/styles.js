@@ -17,19 +17,29 @@ export const IMAGE_CONTAINER_SIZE = IMAGE_SIZE + 36;
     + TITLE_TEXT_SIZE
     + TIME_TEXT_SIZE
 */
+
+const POST_PADDING_TOP = 18
+const POST_MARGIN_TOP = 24
+
+const SEEK_BAR_HEIGHT = 2
+const SEEK_BAR_MARGIN_TOP = 0.5
+const SEEK_BAR_TIME_MARGIN_TOP = 6
+
+const POST_TOP_BORDER = 12
+const TITLE_TEXT_SIZE = 16
+const TIME_TEXT_SIZE = 19.7
+
 export const POST_CONTAINER_SIZE =
   IMAGE_CONTAINER_SIZE
-  + 18
-  + 24
-
-  + 2
-  + 0.5
-  + 6
-
-  + 12
-  + 16
-  + 19.7
-  + 19.7
+    + POST_PADDING_TOP
+    + POST_MARGIN_TOP
+    + SEEK_BAR_HEIGHT
+    + SEEK_BAR_MARGIN_TOP
+    + SEEK_BAR_TIME_MARGIN_TOP
+    + POST_TOP_BORDER
+    + TITLE_TEXT_SIZE
+    + TIME_TEXT_SIZE
+    + TIME_TEXT_SIZE
 
 export const styles = StyleSheet.create({
   container: {
