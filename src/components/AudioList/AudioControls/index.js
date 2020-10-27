@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TouchableOpacity, StyleSheet, Text, Dimensions } from 'react-native';
-import { width, height } from '../../../constants/constants';
+import { width, height } from 'constants/constants';
 import { styles } from './styles';
 
 const PLAY_HIT_SLOP = {

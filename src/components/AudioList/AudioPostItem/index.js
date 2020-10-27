@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text, Image} from 'react-native';
-import { IMAGE_SIZE, width, StatusBarHeight } from '../../../constants/constants.js';
+import { IMAGE_SIZE, width, StatusBarHeight } from 'constants/constants.js';
 import { SeekBar } from '../SeekBar';
 import { AudioControls } from '../AudioControls';
 import { styles } from './styles';

@@ -1,12 +1,12 @@
 let i = 1;
-export const AUDIO_FILES = [];
+export const AUDIO_TRACKS = [];
 export const AUDIO_BY_ID = {
 
 };
 
 for(let i = 0; i <= 16; i++) {
   const id = `SoundHelix-Song-${i + 1}`;
-  AUDIO_FILES.push(
+  AUDIO_TRACKS.push(
     {
       id: `SoundHelix-Song-${i}`,
       key: `SoundHelix-Song-${i}`,

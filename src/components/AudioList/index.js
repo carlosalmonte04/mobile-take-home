@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Image, FlatList, Text } from 'react-native';
 import TrackPlayer from 'react-native-track-player';
 import { View } from 'react-native';
-import { AUDIO_FILES } from '../../constants/audio-player.js';  
+import { AUDIO_TRACKS } from 'constants/audio-player.js';  
 import {
   StatusBarHeight,
   height,
@@ -10,7 +10,7 @@ import {
   IMAGE_SIZE,
   IMAGE_CONTAINER_SIZE,
   POST_CONTAINER_SIZE,
-} from '../../constants/constants.js';  
+} from 'constants/constants.js';  
 import { SeekBar } from './SeekBar';
 import { AudioPostItem } from './AudioPostItem';
 import { styles } from './styles';

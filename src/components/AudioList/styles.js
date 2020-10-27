@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { StatusBarHeight, height, width } from '../../constants/constants.js';  
+import { StatusBarHeight, height, width } from 'constants/constants.js';  
 
 export const IMAGE_SIZE = height / 2.5;
 export const IMAGE_CONTAINER_SIZE = IMAGE_SIZE + 36;
