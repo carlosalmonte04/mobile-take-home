@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { width, IMAGE_SIZE } from '../../../constants/constants';
+import { width, IMAGE_SIZE } from 'constants/constants';
 
 export const styles = StyleSheet.create({
   container: {
@@ -16,10 +16,6 @@ export const styles = StyleSheet.create({
     backgroundColor: '#262527',
     height: IMAGE_SIZE,
     width,
-  },
-  playBtnContainer: {
-    // position: 'absolute',
-    // flex: 0.6,
   },
   playTriangle: {
     position: 'absolute',

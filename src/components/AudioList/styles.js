@@ -4,19 +4,6 @@ import { StatusBarHeight, height, width } from 'constants/constants.js';
 
 export const IMAGE_SIZE = height / 2.5;
 export const IMAGE_CONTAINER_SIZE = IMAGE_SIZE + 36;
-/* 
-  IMAGE_CONTAINER_SIZE
-    + POST_PADDING_TOP
-    + POST_MARGIN_TOP
-
-    + SEEK_BAR_HEIGHT (SeekBar.js)
-    + SEEK_BAR_MARGIN_TOP (SeekBar.js)
-    + SEEK_BAR_TIME_MARGIN_TOP (SeekBar.js)
-
-    + POST_TOP_BORDER
-    + TITLE_TEXT_SIZE
-    + TIME_TEXT_SIZE
-*/
 
 const POST_PADDING_TOP = 18
 const POST_MARGIN_TOP = 24

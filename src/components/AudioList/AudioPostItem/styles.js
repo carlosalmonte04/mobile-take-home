@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
-import { width, IMAGE_SIZE, StatusBarHeight } from '../../../constants/constants';
+import { width, StatusBarHeight } from 'constants/constants';
+import { IMAGE_SIZE } from '../styles';
 
 export const styles = StyleSheet.create({
   post: {

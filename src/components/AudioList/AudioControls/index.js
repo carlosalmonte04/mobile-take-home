@@ -39,7 +39,6 @@ export const AudioControls = ({
       <TouchableOpacity
         disabled={disabled}
         activeOpacity={0.7}
-        style={styles.playBtnContainer}
         onPress={() => onPlayPress(id)}
         hitSlop={PLAY_HIT_SLOP}
       >

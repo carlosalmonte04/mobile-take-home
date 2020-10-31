@@ -15,18 +15,15 @@ export const AudioListScreen = (props) => {
       await TrackPlayer.add(queue);
     })();
 
-    return () => {
-      TrackPlayer.stop();
-    }
+    return () => TrackPlayer.stop();
   }, [])
 
-  const onPlayPress = async () => {
+  const onPlayPress = async () =>
     await TrackPlayer.play();
-  }
 
-  const skip = async (id) => {
+  const skip = async (id) =>
     await TrackPlayer.skip(id);
-  }
+
 
   const moveToTrack =  async (id) => {
     await TrackPlayer.pause();
@@ -40,10 +37,10 @@ export const AudioListScreen = (props) => {
       }
     }
   }) => {
-    const index = Math.round(scrollYPosition / POST_CONTAINER_SIZE);
-    if (!(index > 0 && index < 17)) return;
-    setNowPlaying(index);
-    await moveToTrack(queue[index].id);
+    const songIndex = Math.round(scrollYPosition / POST_CONTAINER_SIZE);
+    if (!(songIndex > 0 && songIndex < 17)) return;
+    setNowPlaying(songIndex);
+    await moveToTrack(queue[songIndex].id);
   }
 
   return (
